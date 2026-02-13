@@ -9,9 +9,15 @@
 */
 
 
-.puzzle * {
+
+	.puzzle * {
   position: absolute;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 
 .puzzle {
   height: 300px;
@@ -4204,3 +4210,4 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
